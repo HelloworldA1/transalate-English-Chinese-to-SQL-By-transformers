@@ -1,0 +1,47 @@
+从名为"Employees"的表中选取所有员工的"Name"和"Salary"。
+SELECT Name, Salary FROM Employees;
+
+向名为"Customers"的表中插入一条新的客户记录，该记录"Name"为"John Doe"、"Email"为"john@example.com","Phone"为"123-456-7890"。
+INSERT INTO Customers (Name, Email, Phone) VALUES ('John Doe', 'john@example.com', '123-456-7890');
+
+将名为"Products"的表中所有"Price"高于100的产品的"Price"增加10%。
+UPDATE Products SET Price = Price * 1.1 WHERE Price > 100;
+
+向名为"Students"的表中插入一条新的学生记录，包括"Name"为"Jane Smith"、"Age"为20和"Course"为"Mathematics"。
+INSERT INTO Students (Name, Age, Course) VALUES ('Jane Smith', 20, 'Mathematics');
+
+将名为"Inventory"的表中所有"Quantity"低于10的产品的"Quantity"增加5个单位。
+UPDATE Inventory SET Quantity = Quantity + 5 WHERE Quantity < 10;
+
+从名为"Students"的表中选择所有学生的"Name"和"Age"。
+SELECT Name, Age FROM Students;
+
+从名为"Products"的表中选择所有产品的"Name"和"Price"。
+SELECT Name, Price FROM Products;
+
+从名为"Inventory"的表中选择所有"Quantity"低于10的产品的"Name"和"Quantity"。
+SELECT Name, Quantity FROM Inventory WHERE Quantity < 10;
+
+向名为"Customers"的表中插入一个新客户，包括"Name"为"Michael Brown"和"Email"为"michael@example.com"。
+INSERT INTO Customers (Name, Email) VALUES ('Michael Brown', 'michael@example.com');
+
+从名为"Orders"的表中选择所有"Status"为"Completed"的订单的"OrderNumber"和"OrderDate"。
+SELECT OrderNumber, OrderDate FROM Orders WHERE Status = 'Completed';
+
+向名为"Countries"的表中插入2个新国家，包括"CountryName"为"France"和"Spain","Population"为67000000和46000000。
+INSERT INTO Countries (CountryName, Population) VALUES ('France', 67000000),('Spain', 46000000);
+
+向名为"Books"的表中插入一本新书，包括"Title"为"Introduction to SQL"、"Author"为"John Smith"和"PublicationYear"为2023。
+INSERT INTO Books (Title, Author, PublicationYear) VALUES ('Introduction to SQL', 'John Smith', 2023);
+
+向名为"Employees"的表中插入一名新员工，包括"Name"为"Emily Johnson"、"Position"为"Software Developer"和"Salary"为60000。
+INSERT INTO Employees (Name, Position, Salary) VALUES ('Emily Johnson', 'Software Developer', 60000);
+
+从名为"Products"的表中选择所有属于"Electronics"类别的产品。
+SELECT * FROM Products WHERE Category = 'Electronics';
+
+从名为"Students"的表中选择所有"Age"在18到25岁之间的学生的"Age"和"Name"。
+SELECT Name, Age FROM Students WHERE Age BETWEEN 18 AND 25;
+
+向名为"Employees"的表中插入两名新员工，其"Name"分别为"Alice"和"Bob"，他们的"Name"分别为50000和55000。
+INSERT INTO Employees (Name, Salary) VALUES ('Alice', 50000), ('Bob', 55000);

@@ -1,0 +1,34 @@
+0
+<SOS>从名为"Inventory"的表中选择所有"Quantity"低于10的产品的"Name"和"Quantity"。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>SELECTName,QuantityFROMInventoryWHEREQuantity<10;<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>QuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantity100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100
+1
+<SOS>向名为"Employees"的表中插入两名新员工，其"Name"分别为"Alice"和"Bob"，他们的"Name"分别为50000和55000。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>INSERTINTOEmployees(Name,Salary)VALUES('Alice',50000),('Bob',55000);<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>((((((((((((((((Brown;;;;;;;;;;;;;;;;;;;;;;''''''
+2
+<SOS>将名为"Products"的表中所有"Price"高于100的产品的"Price"增加10%。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>UPDATEProductsSETPrice=Price*1.1WHEREPrice>100;<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>QuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantity100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100100
+3
+<SOS>从名为"Students"的表中选择所有"Age"在18到25岁之间的学生的"Age"和"Name"。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>SELECTName,AgeFROMStudentsWHEREAgeBETWEEN18AND25;<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS><SOS>'Completed<SOS>'Completed'Completed'Completed'Completed'Completed'Completed'Spain'Spain'Spain'Spain'Spain'Spain'Spain100'''''''''100100100100100'''''''''10055000550005500055000
+4
+<SOS>从名为"Products"的表中选择所有属于"Electronics"类别的产品。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>SELECT*FROMProductsWHERECategory='Electronics';<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>QuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantity100100100100100100100100100'';;;;;;;;;;;;;;;;;;;;;'''''
+5
+<SOS>向名为"Customers"的表中插入一条新的客户记录，该记录"Name"为"John Doe"、"Email"为"john@example.com","Phone"为"123-456-7890"
+<SOS>INSERTINTOCustomers(Name,Email,Phone)VALUES('JohnDoe','john@example.com','123-456-7890');<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>(((((((((((((((Developer;;;;;;;;;;;;;;;;;;;;'''SmithSmithSmithSmithSmithSmith
+6
+<SOS>从名为"Students"的表中选择所有学生的"Name"和"Age"。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>SELECTName,AgeFROMStudents;<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>QuantityQuantityQuantityQuantityQuantityQuantityQuantityQuantitytototototototo100100''';;;;;;;;;;;;;;;;;;;;'''''
+7
+<SOS>向名为"Customers"的表中插入一个新客户，包括"Name"为"Michael Brown"和"Email"为"michael@example.com"。<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS>INSERTINTOCustomers(Name,Email)VALUES('MichaelBrown','michael@example.com');<EOS><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD><PAD>
+<SOS><SOS><SOS><SOS><SOS>((((((((((((((((Brown;;;;;;;;;;;;;;;;;;;;;;''''''
+
+Process finished with exit code 0
