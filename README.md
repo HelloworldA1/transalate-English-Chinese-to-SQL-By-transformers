@@ -5,3 +5,14 @@ This project is only an experiment, in which an English database description and
 Run main.py directly
 
 # Project Structure
+## The project consists of data.py, mask.py, util.py, model.py, and main.py. Below, I will briefly describe their respective roles:
+### data.py:
+  Processing data
+### mask.py:
+  Related mask functions
+### util.py:
+  some utility functions
+### model.py:
+  Complete transformers model
+### main.py:
+  Training and prediction
