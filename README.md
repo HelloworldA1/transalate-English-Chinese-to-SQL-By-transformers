@@ -16,3 +16,9 @@ Run main.py directly
   Complete transformers model
 ### main.py:
   Training and prediction
+
+# About data:
+## eval_ressult_example.txt:
+  English database description and corresponding operation statements
+## train.txt:
+  Chinese database description and corresponding operation statements
