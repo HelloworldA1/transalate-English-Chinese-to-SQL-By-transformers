@@ -3,3 +3,5 @@ This project is only an experiment, in which an English database description and
 
 # How to start
 Run main.py directly
+
+# Project Structure
